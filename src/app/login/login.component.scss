@@ -1,0 +1,39 @@
+.login-container {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .yellow-box {
+    background-color: #f7c129; /* MTN yellow color */
+    height: 100%;
+    text-align: center;
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  input {
+    border-radius: 0;
+    border-color: #000;
+  }
+  
+  input::placeholder {
+    color: #000;
+  }
+  
+  input:focus {
+    box-shadow: none;
+    border-color: #000;
+  }
+  
+  button {
+    border-radius: 0;
+    border-color: #000;
+  }
+  
